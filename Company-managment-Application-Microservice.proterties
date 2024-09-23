@@ -6,7 +6,7 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
 spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=update
 server.port = 8080
-
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 eureka.client.serviceUrl.defaultZone=http://localhost:8090/eureka/
 
 
