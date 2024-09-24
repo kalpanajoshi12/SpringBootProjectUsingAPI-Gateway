@@ -10,6 +10,8 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.properties.hibernate.dialect.MYSQLDialect
 eureka.client.serviceUrl.defaultZone=http://localhost:8090/eureka/
 
+spring.main.web.application-type=reactive
+
 
 
 
